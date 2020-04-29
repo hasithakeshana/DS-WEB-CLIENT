@@ -66,12 +66,8 @@ const Sensor = (props) => {
 								<MDBIcon icon="users" className="light-blue-text" />
 							</div>
 						</div>
-						<h2 className="font-weight-bold my-4">
-							smoke level : {item.smokeLevel}
-						</h2>
-						<h2 className="font-weight-bold my-4">
-							co2 level : {item.co2Level}
-						</h2>
+						<h2 className="font-weight-bold my-4">smoke level : 0</h2>
+						<h2 className="font-weight-bold my-4">co2 level : 0</h2>
 						<h5 className="font-weight-bold my-4">location</h5>
 						<h5 className="mb-4">
 							floor no : {item.floorNo} room no : {item.roomNo}
