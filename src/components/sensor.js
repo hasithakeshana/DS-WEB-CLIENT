@@ -18,7 +18,7 @@ const Sensor = (props) => {
   use conditional rendering for the changing colors of sensors.
   */
 
-	if (item.smokeLevel > 5 || item.co2Level > 5) {
+	if ((item.smokeLevel > 5 || item.co2Level > 5) && item.active === true) {
 		// check smokelevel or co2 level is above 5
 		return (
 			<MDBCol lg="4" md="12" className="mb-lg-0 mb-4">
